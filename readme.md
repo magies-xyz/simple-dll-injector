@@ -14,13 +14,13 @@ How It Works
 5. Creates a remote thread to execute it
 6. DLL gets loaded inside target process
 
-Build injector:
+### Build injector:
 gcc dll-injector.c -o dll.exe
-to Build the dll
+### to Build the dll
 gcc -shared -o example.dll exampledll.c -luser32
 usage:
-use it as dll.exe <use the full path here, even if its on the same folder> <pid>
-all credits to leet cipher: https://www.youtube.com/watch?v=RasdnQmM3IY&t=680s
-most of  the code i took from his video, only translating it to C
+- use it as dll.exe <use the full path here, even if its on the same folder> <pid>
+- all credits to leet cipher: https://www.youtube.com/watch?v=RasdnQmM3IY
+- most of  the code i took from his video, only translating it to C
 
 
