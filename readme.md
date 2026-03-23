@@ -5,7 +5,8 @@ Features
 - Injects a DLL into a target process using its PID
 - Uses pure WinAPI (no external libraries)
 - Debug output with success/failure info
-- Lightweight (-100 lines of code, very shitty tho)
+- Lightweight (take it or leave it 70 lines of code, very shitty tho)
+- still a cli however, because im lazy deal with it
 How It Works
 1. Opens the target process
 2. Allocates memory inside it
